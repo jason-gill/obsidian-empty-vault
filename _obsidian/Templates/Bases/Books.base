@@ -1,0 +1,74 @@
+filters:
+  and:
+    - categories.contains(link("Book"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  note.author:
+    displayName: Author
+  file.name:
+    displayName: Name
+  note.year:
+    displayName: Year
+  note.genre:
+    displayName: Genre
+  note.bookStatus:
+    displayName: Status
+views:
+  - type: table
+    name: Books
+    order:
+      - file.name
+      - author
+      - length
+      - year
+      - rating
+      - topics
+      - last
+      - bookStatus
+    sort:
+      - property: author
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.author: 188
+  - type: table
+    name: Top rated
+    order:
+      - file.name
+      - rating
+      - last
+    sort:
+      - property: last
+        direction: DESC
+  - type: table
+    name: Author
+    filters:
+      and:
+        - list(author).contains(this)
+    order:
+      - file.name
+      - year
+      - genre
+    sort:
+      - property: genre
+        direction: ASC
+  - type: table
+    name: Genre
+    filters:
+      and:
+        - list(genre).contains(this)
+    order:
+      - file.name
+      - year
+      - genre
+  - type: cards
+    name: Bookshelf
+    order:
+      - file.name
+      - author
+      - genre
+      - pages
+    image: note.cover
+    imageAspectRatio: 1
+    imageFit: contain

@@ -1,0 +1,17 @@
+filters:
+  and:
+    - categories.contains(link("Task"))
+    - '!file.folder.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: task
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - status
+      - priority
+      - scheduled
+      - created
+    sort: []

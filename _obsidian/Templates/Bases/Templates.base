@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.path.startsWith("_obsidian/Templates")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - categories
+    sort: []
+    columnSize:
+      file.name: 234

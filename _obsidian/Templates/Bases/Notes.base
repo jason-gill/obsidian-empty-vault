@@ -1,0 +1,19 @@
+filters:
+  and:
+    - categories.contains(link("Note"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: Title
+  note.email:
+    displayName: Email
+  note.phone:
+    displayName: Phone
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - created

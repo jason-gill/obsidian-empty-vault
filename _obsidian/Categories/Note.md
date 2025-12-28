@@ -1,0 +1,6 @@
+---
+tags:
+  - categories
+---
+
+![[Notes.base]]

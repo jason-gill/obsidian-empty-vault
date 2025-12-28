@@ -1,0 +1,16 @@
+filters:
+  and:
+    - categories.contains(link("Podcast"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: Podcast
+  note.host:
+    displayName: Host
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.name
+      - host
+    image: note.thumbnail

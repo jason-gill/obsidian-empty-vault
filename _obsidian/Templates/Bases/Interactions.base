@@ -1,0 +1,33 @@
+filters:
+  and:
+    - categories.contains(link("Interaction"))
+    - '!file.path.startsWith("_obsidian")'
+formulas:
+  Untitled: ""
+properties:
+  file.name:
+    displayName: Link
+  note.contact:
+    displayName: Contact
+  note.contactMethod:
+    displayName: Method
+  note.created:
+    displayName: Date
+views:
+  - type: table
+    name: All
+    order:
+      - created
+      - contact
+      - contactMethod
+      - file.name
+  - type: table
+    name: Contact
+    filters:
+      and:
+        - list(contact).contains(this)
+    order:
+      - created
+      - contact
+      - contactMethod
+      - file.name

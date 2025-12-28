@@ -1,0 +1,32 @@
+filters:
+  and:
+    - categories.contains(link("Projects"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  note.status:
+    displayName: Status
+  note.url:
+    displayName: URL
+  file.name:
+    displayName: Name
+  note.type:
+    displayName: Type
+  note.year:
+    displayName: Year
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - type
+      - year
+      - status
+      - url
+    sort:
+      - property: status
+        direction: ASC
+      - property: year
+        direction: DESC
+    columnSize:
+      file.name: 209
+      note.type: 199

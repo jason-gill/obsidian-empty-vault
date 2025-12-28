@@ -1,0 +1,15 @@
+filters:
+  and:
+    - categories.contains(link("Journal"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: Entry
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created

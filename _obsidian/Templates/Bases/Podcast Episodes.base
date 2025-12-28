@@ -1,0 +1,51 @@
+filters:
+  and:
+    - categories.contains(link("Podcast Episode"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: Podcast
+  note.show:
+    displayName: Show
+  note.guests:
+    displayName: Guests
+  note.episode:
+    displayName: Episode
+  note.rating:
+    displayName: Rating
+  note.published:
+    displayName: Published
+  note.guest:
+    displayName: Guest
+views:
+  - type: table
+    name: All episodes
+    order:
+      - file.name
+      - show
+      - episode
+      - published
+    sort:
+      - property: published
+        direction: DESC
+  - type: table
+    name: Show
+    filters:
+      and:
+        - list(show).contains(this)
+    order:
+      - file.name
+      - show
+      - published
+  - type: table
+    name: Guest
+    filters:
+      and:
+        - list(guest).contains(this)
+    order:
+      - file.name
+      - show
+      - guests
+      - episode
+      - rating
+      - published

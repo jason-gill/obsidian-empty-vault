@@ -1,0 +1,34 @@
+filters:
+  and:
+    - categories.contains(link("Lead"))
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  note.leadStage:
+    displayName: Stage
+  note.leadStatus:
+    displayName: Status
+  file.name:
+    displayName: Link
+  note.contact:
+    displayName: Contact
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - contact
+      - leadStage
+      - leadStatus
+  - type: table
+    name: Contact
+    filters:
+      and:
+        - list(contact).contains(this)
+    order:
+      - leadStage
+      - leadStatus
+      - file.name
+    cardSize: 150
+    columnSize:
+      note.leadStage: 150
+      note.leadStatus: 150

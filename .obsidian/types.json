@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "fileClass": "multitext",
+    "categories": "multitext",
+    "leadStatus": "multitext",
+    "lifecyleStage": "text",
+    "leadStage": "multitext",
+    "contactMethod": "multitext",
+    "created": "date",
+    "bookStatus": "multitext"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "minimal-style@@h1-l": true,
+  "minimal-style@@h1-size": "1.5em",
+  "minimal-style@@h2-size": "1.25em",
+  "minimal-style@@h4-size": "0.95em",
+  "minimal-style@@h5-size": "0.9em",
+  "minimal-style@@metadata-dividers": true,
+  "minimal-style@@metadata-label-width-multiplier": 10,
+  "minimal-style@@metadata-icons-off": false,
+  "minimal-style@@metadata-add-property-off": false,
+  "minimal-style@@metadata-heading-off": false
+}
