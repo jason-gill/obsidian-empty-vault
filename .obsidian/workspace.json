@@ -194,6 +194,8 @@
   },
   "active": "419db322609c5bbc",
   "lastOpenFiles": [
+    "_obsidian/Views/Inbox.base",
+    "_obsidian/Views",
     "README.md",
     "_obsidian/Templates/Product Template.md",
     "_obsidian/Templates/Bases/Products.base",
@@ -227,8 +229,6 @@
     "Media/YouTube/Mike Schmitz – 8 Obsidian Plugins That I Can't Live Without.md",
     "Media/Books/The Unseen Realm.md",
     "_obsidian/Templates/Bases/Videos.base",
-    "_obsidian/Templates/Bases/Trips.base",
-    "_obsidian/Templates/Bases/Templates.base",
-    "_obsidian/Categories/Journal.md"
+    "_obsidian/Templates/Bases/Trips.base"
   ]
 }

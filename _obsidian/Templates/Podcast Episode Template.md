@@ -4,7 +4,7 @@ categories:
 show:
 episode:
 url:
-topics: []
-rating:
 published:
+created: "{{date}}"
+tag: inbox
 ---
