@@ -10,6 +10,7 @@
     "leadStage": "multitext",
     "contactMethod": "multitext",
     "created": "date",
-    "bookStatus": "multitext"
+    "bookStatus": "multitext",
+    "birthday": "date"
   }
 }

@@ -110,17 +110,17 @@
           }
         },
         {
-          "id": "95f862bb-c996-4a7d-97cf-3d518670eaa2",
-          "name": "CRM",
+          "id": "28ab88dd-130e-47ef-9769-4ace2cd52010",
+          "name": "Reference",
           "type": "Multi",
           "command": false,
           "choices": [
             {
-              "id": "5922fdbb-3a78-4379-88d4-af19c0806a65",
-              "name": "Contact",
+              "id": "1938d2b9-d930-47ff-bbff-a79d442aa897",
+              "name": "Person",
               "type": "Template",
               "command": false,
-              "templatePath": "_obsidian/Templates/Contact Template.md",
+              "templatePath": "_obsidian/Templates/Person Template.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -128,7 +128,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "CRM/Contacts"
+                  "References/People"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -145,6 +145,75 @@
               "fileExistsMode": "Increment the file name",
               "setFileExistsBehavior": false
             },
+            {
+              "id": "f5e36750-9b7d-44fa-afb5-0b4b5434b04f",
+              "name": "Place",
+              "type": "Template",
+              "command": false,
+              "templatePath": "_obsidian/Templates/Place Template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "References/Places"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            },
+            {
+              "id": "a23e1e9c-7c41-43f5-a3c4-aa1aa6d42bb9",
+              "name": "Company",
+              "type": "Template",
+              "command": false,
+              "templatePath": "_obsidian/Templates/Company Template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "References/Companies"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "95f862bb-c996-4a7d-97cf-3d518670eaa2",
+          "name": "CRM",
+          "type": "Multi",
+          "command": false,
+          "choices": [
             {
               "id": "9c071511-ce0a-4060-b415-1f360d7aea58",
               "name": "Interaction",
@@ -159,36 +228,6 @@
                 "enabled": true,
                 "folders": [
                   "CRM/Interactions"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFile": true,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              },
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            },
-            {
-              "id": "2afc60cc-9b54-4c06-be1c-df7609b5608a",
-              "name": "Lead",
-              "type": "Template",
-              "command": false,
-              "templatePath": "_obsidian/Templates/Lead Template.md",
-              "fileNameFormat": {
-                "enabled": true,
-                "format": "LD_{{DATE:YYYYMMDDHHmmss}}"
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "CRM/Leads"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -237,75 +276,6 @@
           },
           "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
-        },
-        {
-          "id": "28ab88dd-130e-47ef-9769-4ace2cd52010",
-          "name": "Reference",
-          "type": "Multi",
-          "command": false,
-          "choices": [
-            {
-              "id": "a23e1e9c-7c41-43f5-a3c4-aa1aa6d42bb9",
-              "name": "Company",
-              "type": "Template",
-              "command": false,
-              "templatePath": "_obsidian/Templates/Company Template.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "References"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFile": true,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              },
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            },
-            {
-              "id": "f5e36750-9b7d-44fa-afb5-0b4b5434b04f",
-              "name": "Place",
-              "type": "Template",
-              "command": false,
-              "templatePath": "_obsidian/Templates/Place Template.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "References"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFile": true,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              },
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            }
-          ],
-          "collapsed": false
         }
       ],
       "collapsed": false

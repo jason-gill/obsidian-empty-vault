@@ -31,3 +31,6 @@ views:
       - contact
       - contactMethod
       - file.name
+    sort:
+      - property: file.name
+        direction: DESC

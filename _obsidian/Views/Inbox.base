@@ -27,3 +27,4 @@ views:
         direction: ASC
     columnSize:
       file.name: 356
+      note.created: 128

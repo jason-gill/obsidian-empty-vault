@@ -1,6 +1,7 @@
 filters:
   and:
-    - categories.contains(link("Contact"))
+    - categories.contains(link("Person"))
+    - type.contains(link("Contact"))
     - '!file.path.startsWith("_obsidian")'
 properties:
   file.name:

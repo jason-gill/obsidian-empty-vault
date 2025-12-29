@@ -1,6 +1,7 @@
 filters:
   and:
-    - categories.contains(link("Lead"))
+    - categories.contains(link("Person"))
+    - type.contains(link("Lead"))
     - '!file.path.startsWith("_obsidian")'
 properties:
   note.leadStage:
@@ -8,7 +9,7 @@ properties:
   note.leadStatus:
     displayName: Status
   file.name:
-    displayName: Link
+    displayName: Contact
   note.contact:
     displayName: Contact
 views:
@@ -16,7 +17,6 @@ views:
     name: All
     order:
       - file.name
-      - contact
       - leadStage
       - leadStatus
   - type: table

@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("Projects"))
+    - categories.contains(link("Project"))
     - '!file.path.startsWith("_obsidian")'
 properties:
   note.status:

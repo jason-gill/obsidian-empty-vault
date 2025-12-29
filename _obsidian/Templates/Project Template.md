@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Projects]]"
+  - "[[Project]]"
 type: []
 org: []
 start:

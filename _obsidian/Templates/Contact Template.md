@@ -1,15 +1,11 @@
 ---
 categories:
-  - "[[_obsidian/Categories/Contact|Contact]]"
+  - "[[Person]]"
+type:
+  - "[[Contact]]"
 email:
 phone:
-created: "{{date}}"
 ---
-# Notes
-
-
-# Lead Life Cycle
-![[Leads.base#Contact]]
-
-# Interactions
+## Interactions
 ![[Interactions.base#Contact]]
+
