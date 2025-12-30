@@ -30,12 +30,10 @@ views:
     name: All
     order:
       - file.name
-      - year
       - director
-      - rating
+      - contentRating
+      - published
       - last
-      - plot
-      - genre
     sort:
       - property: director
         direction: ASC
@@ -124,13 +122,17 @@ views:
         - list(cast).contains(this)
     order:
       - file.name
-      - year
       - director
-      - genre
-      - ratingImdb
+      - contentRating
+      - published
     sort:
-      - property: ratingImdb
-        direction: DESC
+      - property: director
+        direction: ASC
+      - property: plot
+        direction: ASC
+    columnSize:
+      file.name: 185
+      note.director: 175
   - type: table
     name: Genre
     filters:
@@ -160,11 +162,9 @@ views:
         - list(director).contains(this)
     order:
       - file.name
-      - year
-      - rating
-      - last
       - cast
-      - genre
+      - contentRating
+      - published
     sort:
       - property: last
         direction: DESC
@@ -174,9 +174,7 @@ views:
         direction: DESC
     columnSize:
       file.name: 186
-      note.year: 79
-      note.rating: 96
-      note.genre: 243
+      note.cast: 162
   - type: table
     name: Soundtrack
     filters:
@@ -237,3 +235,7 @@ views:
       note.scoreRT: 67
       note.director: 238
       note.genre: 243
+  - type: cards
+    name: Cards
+    image: note.cover
+    imageFit: contain

@@ -44,7 +44,7 @@
           "templatePath": "_obsidian/Templates/Journal Template.md",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{DATE:YYYYMMDD}}"
+            "format": "JE_{{DATE:YYYY-MM-DD}}"
           },
           "folder": {
             "enabled": true,

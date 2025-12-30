@@ -2,10 +2,11 @@
 categories:
   - "[[Place]]"
 type: []
-url:
+url: https://www.museumofthebible.org/
 loc: []
 rating:
-created: {{date}}
+created: 2025-12-29
 last:
 tags:
+  - inbox
 ---

@@ -5,6 +5,7 @@ show:
 episode:
 url:
 published:
-created: "{{date}}"
-tag: inbox
+created: {{date}}
+topics:
+tags: inbox
 ---

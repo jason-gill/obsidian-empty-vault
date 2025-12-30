@@ -4,5 +4,7 @@ categories:
 type: []
 people: []
 url:
-created: {{date}}
+created: 2025-12-29
+tags:
+  - inbox
 ---

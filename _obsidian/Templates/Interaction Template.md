@@ -3,6 +3,7 @@ categories:
   - "[[Interaction]]"
 contact:
 contactMethod:
-created: "{{date}}"
+created: {{date}}
+tags:
 ---
 # Details

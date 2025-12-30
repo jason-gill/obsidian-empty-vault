@@ -1,9 +1,9 @@
 ---
 categories:
   - "[[Person]]"
-tags:
 birthday:
-created: "{{date}}"
+created: {{date}}
+tags:
 ---
 # Details
 

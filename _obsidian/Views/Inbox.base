@@ -26,5 +26,6 @@ views:
       - property: created
         direction: ASC
     columnSize:
+      note.categories: 128
       file.name: 356
       note.created: 128

@@ -4,7 +4,8 @@ categories:
 url: ""
 description:
 published:
-created: "{{date}}"
+created: {{date}}
+topics:
 tags:
   - inbox
 ---

@@ -4,6 +4,8 @@ filters:
     - created.toString().contains(this.file.name)
     - start.toString().contains(this.file.name)
     - end.toString().contains(this.file.name)
+    - last.toString().contains(this.file.name)
+    - acquired.toString().contains(this.file.name)
     - file.links.contains(this.file)
 properties:
   file.name:
@@ -19,8 +21,8 @@ views:
     name: Daily notes
     filters:
       and:
-        - '!tags.contains("daily")'
-        - '!tags.contains("monthly")'
+        - '!file.tags.contains("daily")'
+        - '!file.tags.contains("monthly")'
     order:
       - file.name
       - created
@@ -43,8 +45,8 @@ views:
     name: Monthly
     filters:
       and:
-        - '!tags.contains("daily")'
-        - '!tags.contains("monthly")'
+        - '!file.tags.contains("daily")'
+        - '!file.tags.contains("monthly")'
     order:
       - file.name
       - categories
@@ -58,8 +60,8 @@ views:
     name: Yearly
     filters:
       and:
-        - '!tags.contains("daily")'
-        - '!tags.contains("monthly")'
+        - '!file.tags.contains("daily")'
+        - '!file.tags.contains("monthly")'
     order:
       - file.name
       - categories

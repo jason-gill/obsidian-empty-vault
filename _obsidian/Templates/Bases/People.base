@@ -1,6 +1,6 @@
 filters:
   and:
-    - categories.contains(link("People"))
+    - categories.contains(link("Person"))
     - '!file.path.startsWith("_obsidian")'
 formulas:
   Age: (now() - birthday).years.floor()
@@ -16,9 +16,10 @@ views:
     name: All people
     order:
       - file.name
-      - tags
+      - type
       - birthday
       - formula.Age
+      - tags
     sort:
       - property: file.name
         direction: ASC
@@ -29,5 +30,6 @@ views:
       - property: birthday
         direction: DESC
     columnSize:
-      note.tags: 209
+      note.type: 140
+      note.tags: 175
       formula.Age: 99

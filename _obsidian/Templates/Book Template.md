@@ -9,12 +9,12 @@ isbn:
 isbn13:
 year:
 rating:
-topics: []
-created: "{{date}}"
+created: {{date}}:
 last:
-via: ""
 bookStatus:
   - need-to-buy
   - unread
+topics: []
+tags:
 ---
 # Notes

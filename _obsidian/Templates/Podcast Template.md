@@ -3,8 +3,9 @@ categories:
   - "[[Podcast]]"
 url:
 thumbnail:
+created: {{date}}
 topics:
-created: "{{date}}"
+tags:
 ---
 # Episodes
 ![[Podcast Episodes.base#Show]]

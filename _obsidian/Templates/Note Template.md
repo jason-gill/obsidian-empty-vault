@@ -1,6 +1,7 @@
 ---
 categories:
-  - "[[_obsidian/Categories/Note|Note]]"
+  - "[[Note]]"
+created: {{date}}
+topics:
 tags:
-created: "{{date}}"
 ---

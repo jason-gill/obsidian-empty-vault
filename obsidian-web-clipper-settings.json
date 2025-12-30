@@ -1,0 +1,720 @@
+{
+  "general_settings": {
+    "betaFeatures": false,
+    "legacyMode": false,
+    "openBehavior": "popup",
+    "saveBehavior": "addToObsidian",
+    "showMoreActionsButton": false,
+    "silentOpen": false
+  },
+  "highlighter_settings": {
+    "alwaysShowHighlights": true,
+    "highlightBehavior": "highlight-inline",
+    "highlighterEnabled": true
+  },
+  "interpreter_settings": {
+    "defaultPromptContext": "",
+    "interpreterAutoRun": false,
+    "interpreterEnabled": false,
+    "interpreterModel": "",
+    "models": [],
+    "providers": []
+  },
+  "migrationVersion": 1,
+  "property_types": [
+    {
+      "defaultValue": "{{title}}",
+      "name": "title",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{url}}",
+      "name": "source",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{author|split:\", \"|wikilink|join}}",
+      "name": "author",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "type": "date"
+    },
+    {
+      "name": "created",
+      "type": "date"
+    },
+    {
+      "defaultValue": "{{description}}",
+      "name": "description",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{schema:thumbnailUrl|slice:0}}",
+      "name": "image",
+      "type": "text"
+    },
+    {
+      "name": "categories",
+      "type": "multitext"
+    },
+    {
+      "name": "genre",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{selector:p[data-testid='pagesFormat'|split:\\\", \\\"|slice:0|split:\\\" \\\"|slice:0}}",
+      "name": "pages",
+      "type": "number"
+    },
+    {
+      "name": "year",
+      "type": "number"
+    },
+    {
+      "defaultValue": "{{selector:.RatingStatistics__rating|first|round:2}}",
+      "name": "scoreGr",
+      "type": "number"
+    },
+    {
+      "name": "rating",
+      "type": "number"
+    },
+    {
+      "name": "cover",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{selector:.DescList|split:\\\"ISBN\\\"|slice:1,2|split:\\\" \\\"|first}}",
+      "name": "isbn",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{selector:.DescList|split:\\\"Language\\\"|last}}",
+      "name": "language",
+      "type": "text"
+    },
+    {
+      "name": "bookStatus",
+      "type": "multitext"
+    },
+    {
+      "name": "topics",
+      "type": "multitext"
+    },
+    {
+      "name": "type",
+      "type": "multitext"
+    },
+    {
+      "name": "loc",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{url|split:\\\"/@\\\"|slice:1|split:\\\",\\\"|slice:0,2}}",
+      "name": "coordinates",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{selector:button[aria-label^=\\\"Address:\\\"]:aria-label|split:\\\"Address: \\\"|slice:1}}",
+      "name": "address",
+      "type": "text"
+    },
+    {
+      "name": "url",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{selector:div[jsaction*=\\\"moreReviews\\\"] .fontDisplayLarge}}",
+      "name": "scoreGoogle",
+      "type": "number"
+    },
+    {
+      "name": "last",
+      "type": "date"
+    },
+    {
+      "name": "show",
+      "type": "text"
+    },
+    {
+      "name": "episode",
+      "type": "text"
+    },
+    {
+      "name": "thumbnail",
+      "type": "text"
+    },
+    {
+      "name": "cast",
+      "type": "multitext"
+    },
+    {
+      "name": "contentRating",
+      "type": "text"
+    },
+    {
+      "name": "runtime",
+      "type": "text"
+    },
+    {
+      "name": "director",
+      "type": "text"
+    }
+  ],
+  "reader_settings": {
+    "fontSize": 1.5,
+    "lineHeight": 1.6,
+    "maxWidth": 38,
+    "theme": "default",
+    "themeMode": "auto"
+  },
+  "stats": {
+    "addToObsidian": 17,
+    "copyToClipboard": 0,
+    "saveFile": 0,
+    "share": 0
+  },
+  "template_1766299982230tfoj3804y": {
+    "id": "1766299982230tfoj3804y",
+    "name": "Default",
+    "behavior": "create",
+    "noteNameFormat": "{{title}}",
+    "path": "Clippings",
+    "noteContentFormat": "{{content}}",
+    "context": "",
+    "properties": [
+      {
+        "id": "17667267453395pps76lxo",
+        "name": "categories",
+        "value": "[[Clipping]]",
+        "type": "multitext"
+      },
+      {
+        "id": "17662999822304lo1vxrh6",
+        "name": "url",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "17662999822306jggoaydi",
+        "name": "description",
+        "value": "{{description}}",
+        "type": "text"
+      },
+      {
+        "id": "1766299982230wny8y7dy9",
+        "name": "published",
+        "value": "{{published}}",
+        "type": "date"
+      },
+      {
+        "id": "17662999822309w2zcjbeu",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "17670412269447g332cgh5",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766847290133a3rkxzxev",
+        "name": "tags",
+        "value": "inbox",
+        "type": "multitext"
+      }
+    ],
+    "triggers": []
+  },
+  "template_1766346901673ykrwqrx": {
+    "schemaVersion": "0.1.0",
+    "name": "YouTube",
+    "behavior": "create",
+    "noteNameFormat": "{{schema:author}} – {{schema:name}}",
+    "path": "Media/YouTube",
+    "noteContentFormat": "![{{schema:name}}]({{url}})\n\n# Notes\n",
+    "properties": [
+      {
+        "id": "1766554743283bs8j34utj",
+        "name": "categories",
+        "value": "[[Video]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1766346901676ot620dj",
+        "name": "title",
+        "value": "{{schema:name}}",
+        "type": "text"
+      },
+      {
+        "id": "1766346901676gyoew5u",
+        "name": "author",
+        "value": "{{schema:author|wikilink}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1766346901676y9i9arc",
+        "name": "published",
+        "value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+        "type": "date"
+      },
+      {
+        "id": "1766346901676n260idz",
+        "name": "source",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "1766346901676e25sws2",
+        "name": "image",
+        "value": "{{schema:thumbnailUrl|slice:0}}",
+        "type": "text"
+      },
+      {
+        "id": "1766346901676wqqqu0r",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "176704124635234pazg1yo",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766346901676y0fihc1",
+        "name": "tags",
+        "value": "inbox",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/watch?v="
+    ],
+    "id": "1766346901673ykrwqrx",
+    "context": ""
+  },
+  "template_1766512345332by5lich": {
+    "schemaVersion": "0.1.0",
+    "name": "Goodreads",
+    "behavior": "create",
+    "noteNameFormat": "{{selector:.BookPageTitleSection__title h1}}",
+    "path": "Media/Books",
+    "noteContentFormat": "![cover|150]({{selector:.BookCover__image img?src|first}})\n\n# Description\n{{selector:.BookPageMetadataSection__description}}",
+    "properties": [
+      {
+        "id": "1766512345355d5vfkvz",
+        "name": "categories",
+        "value": "[[Book]]",
+        "type": "multitext"
+      },
+      {
+        "id": "17665123453556lr1s21",
+        "name": "cover",
+        "value": "{{selector:.BookCover__image img?src|first}}",
+        "type": "text"
+      },
+      {
+        "id": "176651234535573w9hwv",
+        "name": "title",
+        "value": "{{selector:.BookPageTitleSection__title h1}}",
+        "type": "text"
+      },
+      {
+        "id": "17665123453554zeew74",
+        "name": "author",
+        "value": "{{selector:.ContributorLink__name|unique|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1766512345355vgcor3q",
+        "name": "genre",
+        "value": "{{selector:.BookPageMetadataSection__genres .BookPageMetadataSection__genreButton|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "176651234535535y5cey",
+        "name": "pages",
+        "value": "{{selector:p[data-testid='pagesFormat'|split:\\\", \\\"|slice:0|split:\\\" \\\"|slice:0}}",
+        "type": "number"
+      },
+      {
+        "id": "17665123453558ur04aw",
+        "name": "isbn",
+        "value": "{{selector:.DescList|split:\\\"ISBN\\\"|slice:1,2|split:\\\" \\\"|first}}",
+        "type": "text"
+      },
+      {
+        "id": "17665123453559ula0zu",
+        "name": "year",
+        "value": "{{selector:p[data-testid='publicationInfo']|split:\\\"First published \\\"|slice:1|date:\\\"YYYY\\\"}}",
+        "type": "number"
+      },
+      {
+        "id": "1766512345355j746sjy",
+        "name": "scoreGr",
+        "value": "{{selector:.RatingStatistics__rating|first|round:2}}",
+        "type": "number"
+      },
+      {
+        "id": "1766512345355wknhj4t",
+        "name": "rating",
+        "value": "",
+        "type": "number"
+      },
+      {
+        "id": "17665123453558zaxf3j",
+        "name": "language",
+        "value": "{{selector:.DescList|split:\\\"Language\\\"|last}}",
+        "type": "text"
+      },
+      {
+        "id": "17665123453550s5vkjn",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "1767043853411x9ncd7k6d",
+        "name": "last",
+        "value": "",
+        "type": "date"
+      },
+      {
+        "id": "1766512538898b4l4g3khw",
+        "name": "bookStatus",
+        "value": "need-to-buy, unread",
+        "type": "multitext"
+      },
+      {
+        "id": "1767041269807i0bcsdhof",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766847340516v6xmoqgfw",
+        "name": "tags",
+        "value": "",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.goodreads.com/book/"
+    ],
+    "id": "1766512345332by5lich",
+    "context": ""
+  },
+  "template_176655617908171hj1nd": {
+    "schemaVersion": "0.1.0",
+    "name": "Google Maps",
+    "behavior": "create",
+    "noteNameFormat": "{{selector:div[role=\"main\"]:aria-label}}",
+    "path": "References",
+    "noteContentFormat": "",
+    "properties": [
+      {
+        "id": "1766556179100gx1bsn8",
+        "name": "categories",
+        "value": "[[Place]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1766556179100c525hg1",
+        "name": "type",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766556179100xtopi0t",
+        "name": "source",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "1766556179100vmhnf2a",
+        "name": "loc",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17665561791008fffkbd",
+        "name": "coordinates",
+        "value": "{{url|split:\\\"/@\\\"|slice:1|split:\\\",\\\"|slice:0,2}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1766556179100l0zvdud",
+        "name": "address",
+        "value": "{{selector:button[aria-label^=\\\"Address:\\\"]:aria-label|split:\\\"Address: \\\"|slice:1}}",
+        "type": "text"
+      },
+      {
+        "id": "1766556179100yjo76kq",
+        "name": "url",
+        "value": "{{selector:div[aria-label^=\\\"Information for\\\"] a[href*=\\\"http\\\"]:href|slice:0,1}}",
+        "type": "text"
+      },
+      {
+        "id": "1766556179100dxnqoxe",
+        "name": "rating",
+        "value": "",
+        "type": "number"
+      },
+      {
+        "id": "1766556179100z1zdd2o",
+        "name": "scoreGoogle",
+        "value": "{{selector:div[jsaction*=\\\"moreReviews\\\"] .fontDisplayLarge}}",
+        "type": "number"
+      },
+      {
+        "id": "1766556179100yvvlmn7",
+        "name": "description",
+        "value": "{{selector:div[aria-label^=\\\"About \\\"] button .PYvSYb[jslog]}}",
+        "type": "text"
+      },
+      {
+        "id": "17665561791003h8bh2d",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "1766556179100gwvujkc",
+        "name": "last",
+        "value": "",
+        "type": "date"
+      },
+      {
+        "id": "17665561791008m3v5z4",
+        "name": "tags",
+        "value": "to-visit",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.google.com/maps/place/"
+    ],
+    "id": "176655617908171hj1nd",
+    "context": ""
+  },
+  "template_1766680638865hgqgfsx0f": {
+    "schemaVersion": "0.1.0",
+    "name": "Apple Podcasts Episode",
+    "behavior": "create",
+    "noteNameFormat": "{{schema:@PodcastEpisode:name}}",
+    "path": "Media/Podcasts",
+    "noteContentFormat": "# Description\n{{content}}\n\n\n",
+    "properties": [
+      {
+        "id": "1766512345355d5vfkvz",
+        "name": "categories",
+        "value": "[[Podcast Episode]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1766708988119e2q2s65e1",
+        "name": "show",
+        "value": "[[{{schema:@PodcastEpisode:partOfSeries.name}}]]",
+        "type": "text"
+      },
+      {
+        "id": "1766709055927j7oj2jdjc",
+        "name": "episode",
+        "value": "{{schema:@PodcastEpisode:episodeNumber}}",
+        "type": "text"
+      },
+      {
+        "id": "1766681693740vzbzqoz2b",
+        "name": "url",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "17665123453559ula0zu",
+        "name": "published",
+        "value": "{{published}}",
+        "type": "date"
+      },
+      {
+        "id": "1766710595854tqbhw018w",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "1767041296833aasd5dchm",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766847002856fhixuztsv",
+        "name": "tags",
+        "value": "inbox",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://podcasts.apple.com/us/podcast"
+    ],
+    "id": "1766680638865hgqgfsx0f",
+    "context": ""
+  },
+  "template_1766710199183hmltp1pd3": {
+    "schemaVersion": "0.1.0",
+    "name": "Apple Podcasts",
+    "behavior": "create",
+    "noteNameFormat": "{{schema:@CreativeWorkSeries:name}}",
+    "path": "Media/Podcasts",
+    "noteContentFormat": "# Description\n{{schema:@CreativeWorkSeries:description}}\n\n# Episodes\n![[Podcast Episodes.base#Show]]",
+    "properties": [
+      {
+        "id": "1766512345355d5vfkvz",
+        "name": "categories",
+        "value": "[[Podcast]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1766681693740vzbzqoz2b",
+        "name": "url",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "1766711078447nde6hk0pm",
+        "name": "thumbnail",
+        "value": "{{schema:@CreativeWorkSeries:thumbnailUrl}}",
+        "type": "text"
+      },
+      {
+        "id": "1766710586416g6vc4ltzi",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "17670412862890fsuew9sj",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17668471058808gn6c5qzl",
+        "name": "tags",
+        "value": "",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://podcasts.apple.com/us/podcast"
+    ],
+    "id": "1766710199183hmltp1pd3",
+    "context": ""
+  },
+  "template_1767048871640croivc8my": {
+    "id": "1767048871640croivc8my",
+    "name": "IMDB",
+    "behavior": "create",
+    "noteNameFormat": "{{schema:@Movie:name}}",
+    "path": "Media/Movies",
+    "noteContentFormat": "![cover|150]({{image}})\n\n# Description\n{{description}}",
+    "context": "",
+    "properties": [
+      {
+        "id": "17667267453395pps76lxo",
+        "name": "categories",
+        "value": "[[Movie]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1767048996302y98jctqk1",
+        "name": "cover",
+        "value": "{{image}}",
+        "type": "text"
+      },
+      {
+        "id": "176704971112660rdldnna",
+        "name": "contentRating",
+        "value": "{{schema:@Movie:contentRating}}",
+        "type": "text"
+      },
+      {
+        "id": "1767049129524fhli1ei4d",
+        "name": "runtime",
+        "value": "{{schema:@Movie:duration}}",
+        "type": "text"
+      },
+      {
+        "id": "1767049077849yewzmrwf4",
+        "name": "genre",
+        "value": "{{schema:@Movie:genre}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1767049089432j5p9va3dg",
+        "name": "director",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "17670491036541rmkhqq5o",
+        "name": "cast",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17670491643794unpcpzex",
+        "name": "published",
+        "value": "{{schema:@Movie:datePublished}}",
+        "type": "date"
+      },
+      {
+        "id": "1767050160813knutizdh6",
+        "name": "url",
+        "value": "{{schema:@Movie:url}}",
+        "type": "text"
+      },
+      {
+        "id": "1767049179483ppemhkqxx",
+        "name": "last",
+        "value": "",
+        "type": "date"
+      },
+      {
+        "id": "17670412269447g332cgh5",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766847290133a3rkxzxev",
+        "name": "tags",
+        "value": "",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.imdb.com/title"
+    ]
+  },
+  "template_list": [
+    "1767048871640croivc8my",
+    "1766680638865hgqgfsx0f",
+    "1766710199183hmltp1pd3",
+    "176655617908171hj1nd",
+    "1766512345332by5lich",
+    "1766346901673ykrwqrx",
+    "1766299982230tfoj3804y"
+  ],
+  "vaults": []
+}

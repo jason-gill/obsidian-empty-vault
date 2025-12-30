@@ -11,6 +11,10 @@
     "contactMethod": "multitext",
     "created": "date",
     "bookStatus": "multitext",
-    "birthday": "date"
+    "birthday": "date",
+    "start": "date",
+    "end": "date",
+    "last": "date",
+    "acquired": "date"
   }
 }
