@@ -25,6 +25,7 @@ bookStatus:
   - need-to-buy
   - unread
 topics:
+  - "[[Theology]]"
 tags:
   - inbox
 ---

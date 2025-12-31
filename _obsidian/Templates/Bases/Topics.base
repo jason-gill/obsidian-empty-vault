@@ -1,0 +1,39 @@
+filters:
+  and:
+    - '!file.path.startsWith("_obsidian")'
+properties:
+  file.name:
+    displayName: Title
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: All Topics
+    filters:
+      and:
+        - categories.contains(link("Topic"))
+    order:
+      - file.name
+      - created
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 423
+  - type: table
+    name: Related To
+    filters:
+      and:
+        - list(topics).contains(this)
+    order:
+      - file.name
+      - categories
+      - file.tags
+      - created
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 262
+      note.categories: 126
+      file.tags: 107

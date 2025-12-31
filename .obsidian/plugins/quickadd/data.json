@@ -204,6 +204,36 @@
               },
               "fileExistsMode": "Increment the file name",
               "setFileExistsBehavior": false
+            },
+            {
+              "id": "eb1d84ce-5c38-48bb-9de5-4bcc0a8d92c0",
+              "name": "Topic",
+              "type": "Template",
+              "command": false,
+              "templatePath": "_obsidian/Templates/Topic Template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "References/Topics"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
             }
           ],
           "collapsed": false
