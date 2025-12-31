@@ -2,11 +2,16 @@
 categories:
   - "[[Clipping]]"
 url: ""
-description:
 published:
-created: {{date}}
+created: "{{date}}"
 topics:
 tags:
   - inbox
 ---
+# Details
+
+## Description
+
+
+## Content
 

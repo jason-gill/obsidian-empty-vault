@@ -165,6 +165,26 @@
     {
       "name": "director",
       "type": "text"
+    },
+    {
+      "name": "acquired",
+      "type": "date"
+    },
+    {
+      "name": "maker",
+      "type": "text"
+    },
+    {
+      "name": "model",
+      "type": "text"
+    },
+    {
+      "name": "price",
+      "type": "text"
+    },
+    {
+      "name": "monthly-uses",
+      "type": "text"
     }
   ],
   "reader_settings": {
@@ -175,24 +195,24 @@
     "themeMode": "auto"
   },
   "stats": {
-    "addToObsidian": 17,
+    "addToObsidian": 19,
     "copyToClipboard": 0,
     "saveFile": 0,
     "share": 0
   },
   "template_1766299982230tfoj3804y": {
     "id": "1766299982230tfoj3804y",
-    "name": "Default",
+    "name": "Product",
     "behavior": "create",
     "noteNameFormat": "{{title}}",
     "path": "Clippings",
-    "noteContentFormat": "{{content}}",
+    "noteContentFormat": "# Details\n\n## Description\n\n{{description}}\n\n## Content\n\n{{content}}\n",
     "context": "",
     "properties": [
       {
         "id": "17667267453395pps76lxo",
         "name": "categories",
-        "value": "[[Clipping]]",
+        "value": "[[Clipping]], [[Product]]",
         "type": "multitext"
       },
       {
@@ -202,28 +222,46 @@
         "type": "text"
       },
       {
-        "id": "17662999822306jggoaydi",
-        "name": "description",
-        "value": "{{description}}",
-        "type": "text"
-      },
-      {
-        "id": "1766299982230wny8y7dy9",
-        "name": "published",
-        "value": "{{published}}",
-        "type": "date"
-      },
-      {
         "id": "17662999822309w2zcjbeu",
         "name": "created",
         "value": "{{date}}",
         "type": "date"
       },
       {
-        "id": "17670412269447g332cgh5",
-        "name": "topics",
+        "id": "1767191959899qk1nyae5k",
+        "name": "type",
         "value": "",
         "type": "multitext"
+      },
+      {
+        "id": "17671919678578pezdwl0p",
+        "name": "maker",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "17671919744795blb6mses",
+        "name": "model",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "1767191992442bjzr4kgnp",
+        "name": "price",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "17671920018479q15ahfo4",
+        "name": "acquired",
+        "value": "",
+        "type": "date"
+      },
+      {
+        "id": "1767192020813rlaqp3wyt",
+        "name": "monthly-uses",
+        "value": "",
+        "type": "text"
       },
       {
         "id": "1766847290133a3rkxzxev",
@@ -707,14 +745,63 @@
       "https://www.imdb.com/title"
     ]
   },
+  "template_1767191818974se5byhiiy": {
+    "id": "1767191818974se5byhiiy",
+    "name": "Default",
+    "behavior": "create",
+    "noteNameFormat": "{{title}}",
+    "path": "Clippings",
+    "noteContentFormat": "# Details\n\n## Description\n\n{{description}}\n\n## Content\n\n{{content}}\n",
+    "context": "",
+    "properties": [
+      {
+        "id": "17667267453395pps76lxo",
+        "name": "categories",
+        "value": "[[Clipping]]",
+        "type": "multitext"
+      },
+      {
+        "id": "17662999822304lo1vxrh6",
+        "name": "url",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "1766299982230wny8y7dy9",
+        "name": "published",
+        "value": "{{published}}",
+        "type": "date"
+      },
+      {
+        "id": "17662999822309w2zcjbeu",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "17670412269447g332cgh5",
+        "name": "topics",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1766847290133a3rkxzxev",
+        "name": "tags",
+        "value": "inbox",
+        "type": "multitext"
+      }
+    ],
+    "triggers": []
+  },
   "template_list": [
-    "1767048871640croivc8my",
+    "1767191818974se5byhiiy",
+    "1766299982230tfoj3804y",
+    "1766346901673ykrwqrx",
+    "1766512345332by5lich",
     "1766680638865hgqgfsx0f",
     "1766710199183hmltp1pd3",
-    "176655617908171hj1nd",
-    "1766512345332by5lich",
-    "1766346901673ykrwqrx",
-    "1766299982230tfoj3804y"
+    "1767048871640croivc8my",
+    "176655617908171hj1nd"
   ],
   "vaults": []
 }

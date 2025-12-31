@@ -1,13 +1,19 @@
 ---
 categories:
   - "[[Product]]"
+url:
 type:
 maker:
 model:
-rating:
 price:
 acquired:
 monthly-uses:
-url:
 tags:
 ---
+# Details
+
+## Description
+
+
+## Content
+
