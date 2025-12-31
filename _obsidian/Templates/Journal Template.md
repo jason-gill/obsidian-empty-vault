@@ -5,4 +5,4 @@ created: {{date}}
 topics:
 tags:
 ---
-# Journal Entry
+# On this day...

@@ -8,5 +8,6 @@ rating:
 price:
 acquired:
 monthly-uses:
+url:
 tags:
 ---

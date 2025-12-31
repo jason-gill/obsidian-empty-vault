@@ -4,4 +4,5 @@ categories:
 created: {{date}}
 topics:
 tags:
+  - inbox
 ---

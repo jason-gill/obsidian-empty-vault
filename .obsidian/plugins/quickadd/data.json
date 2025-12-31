@@ -86,7 +86,7 @@
           },
           "insertAfter": {
             "enabled": true,
-            "after": "# Random Thought",
+            "after": "# Random Thoughts",
             "insertAtEnd": false,
             "considerSubsections": false,
             "createIfNotFound": true,

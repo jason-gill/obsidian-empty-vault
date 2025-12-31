@@ -6,5 +6,5 @@ topics:
 tags:
   - inbox
 ---
-# Random Thought
+# Random Thoughts
 - Some random thought
